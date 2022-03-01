@@ -8,7 +8,6 @@ Console.WriteLine("Введите число B:");
 int b = Convert.ToInt32(Console.ReadLine());
 
 int tmp = 0;
-int result = 0;
 
 if (a>b)
 {
@@ -17,7 +16,7 @@ if (a>b)
     b = tmp;
 }
 
-int number = a;
+int result = 0;
 
 for (int i=a; i<=b; i++)
 {
